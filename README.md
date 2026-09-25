@@ -1,5 +1,8 @@
 # Paperclip — Autonomous AI Company Orchestrator
 
+[![Status: Demo-ready](https://img.shields.io/badge/status-demo--ready-22c55e.svg)](https://github.com/agenticph-labs/p7-paperclip)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 > **Portfolio Project 7:** Paperclip deployment, configuration, and management for autonomous AI organizations.
 
 | Status | Repo | Type |
@@ -156,5 +159,5 @@ This project demonstrates:
 
 | Repo | Visibility | Contents |
 |:----:|:----------:|:---------|
-| `agenticph-labs/p7-paperclip` | Public | Portfolio documentation, sample configs, service blueprint |
-| (Your Paperclip install) | Private | Production Paperclip server and agent environment |
+| `agenticph-labs/p7-paperclip` | Public | Portfolio documentation, sample configs, service blueprint |\n| `agenticph-labs/portfolio` | Public | [Portfolio site](https://agenticph-labs.github.io/portfolio) ||
+| [`agenticph-labs/portfolio`](https://agenticph-labs.github.io/portfolio) | Public | Portfolio site |
