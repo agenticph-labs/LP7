@@ -1,0 +1,227 @@
+{
+  "company": {
+    "name": "AgenticPH Marketing Agency",
+    "mission": "Deliver measurable ROI through AI-powered marketing automation for PH businesses",
+    "timezone": "Asia/Manila",
+    "currency": "PHP",
+    "budget": 225
+  },
+  "org_chart": {
+    "agents": [
+      {
+        "id": "ceo-01",
+        "name": "CEO",
+        "title": "Chief Executive Officer",
+        "agent_type": "openclaw",
+        "model": "claude-4-opus",
+        "reports_to": null,
+        "budget": 60,
+        "responsibilities": [
+          "Strategic planning and direction",
+          "Board reporting",
+          "Goal setting and mission alignment",
+          "Department delegation",
+          "Performance review"
+        ],
+        "skills": [
+          "strategy",
+          "delegation",
+          "financial-modeling",
+          "executive-reporting"
+        ]
+      },
+      {
+        "id": "cmo-01",
+        "name": "CMO",
+        "title": "Chief Marketing Officer",
+        "agent_type": "claude-code",
+        "model": "claude-4-sonnet",
+        "reports_to": "ceo-01",
+        "budget": 40,
+        "responsibilities": [
+          "Campaign strategy and execution",
+          "Content calendar management",
+          "Brand positioning",
+          "Market research",
+          "Channel optimization"
+        ],
+        "skills": [
+          "marketing-strategy",
+          "content-planning",
+          "seo",
+          "social-media"
+        ]
+      },
+      {
+        "id": "cto-01",
+        "name": "CTO",
+        "title": "Chief Technology Officer",
+        "agent_type": "codex",
+        "model": "gpt-4o",
+        "reports_to": "ceo-01",
+        "budget": 50,
+        "responsibilities": [
+          "Technical architecture",
+          "Automation pipeline development",
+          "Tool selection and integration",
+          "System monitoring",
+          "Technical debt management"
+        ],
+        "skills": [
+          "python",
+          "api-integration",
+          "system-architecture",
+          "automation",
+          "devops"
+        ]
+      },
+      {
+        "id": "coo-01",
+        "name": "COO",
+        "title": "Chief Operating Officer",
+        "agent_type": "claude-code",
+        "model": "claude-4-sonnet",
+        "reports_to": "ceo-01",
+        "budget": 30,
+        "responsibilities": [
+          "Daily operations management",
+          "Vendor coordination",
+          "Quality assurance",
+          "Process optimization",
+          "Cross-team communication"
+        ],
+        "skills": [
+          "operations",
+          "project-management",
+          "quality-control"
+        ]
+      },
+      {
+        "id": "writer-01",
+        "name": "Content Writer",
+        "title": "Senior Content Strategist",
+        "agent_type": "openclaw",
+        "model": "claude-4-sonnet",
+        "reports_to": "cmo-01",
+        "budget": 20,
+        "responsibilities": [
+          "Blog post writing and editing",
+          "Social media content creation",
+          "Case study development",
+          "SEO-optimized copywriting",
+          "Newsletter production"
+        ],
+        "skills": [
+          "copywriting",
+          "seo",
+          "storytelling",
+          "editing"
+        ]
+      },
+      {
+        "id": "analyst-01",
+        "name": "Data Analyst",
+        "title": "Marketing Data Analyst",
+        "agent_type": "claude-code",
+        "model": "claude-4-sonnet",
+        "reports_to": "cmo-01",
+        "budget": 25,
+        "responsibilities": [
+          "Campaign performance analysis",
+          "Dashboard creation",
+          "Customer insights",
+          "A/B test analysis",
+          "Monthly reporting"
+        ],
+        "skills": [
+          "data-analysis",
+          "python",
+          "visualization",
+          "sql",
+          "statistics"
+        ]
+      }
+    ],
+    "governance": {
+      "approval_required": {
+        "hire_new_agent": true,
+        "execute_strategy": true,
+        "override_budget": true,
+        "terminate_agent": true,
+        "modify_mission": true
+      },
+      "auto_approve": {
+        "routine_tasks": true,
+        "content_publishing": false,
+        "budget_adjustments": false,
+        "new_workflows": true
+      }
+    }
+  },
+  "goals": [
+    {
+      "id": "goal-01",
+      "title": "Make $1M ARR with #1 PH AI Marketing Platform",
+      "type": "mission",
+      "status": "active",
+      "owner": "ceo-01",
+      "success_criteria": [
+        "Reach $1M annual recurring revenue",
+        "Onboard 50 enterprise clients",
+        "Achieve 95% client retention",
+        "Rank #1 in PH AI marketing category"
+      ],
+      "deadline": "2027-09-01"
+    },
+    {
+      "id": "goal-02",
+      "title": "Ship v2.0 Platform with Automation Features",
+      "type": "project",
+      "status": "active",
+      "owner": "cto-01",
+      "success_criteria": [
+        "Deploy multi-channel automation engine",
+        "Integrate 10 marketing tool APIs",
+        "Achieve 99.9% uptime",
+        "Pass security audit"
+      ],
+      "deadline": "2027-03-01"
+    },
+    {
+      "id": "goal-03",
+      "title": "Generate 100 Qualified Leads per Month",
+      "type": "project",
+      "status": "active",
+      "owner": "cmo-01",
+      "success_criteria": [
+        "100 leads/month with 20% SQL rate",
+        "5 enterprise demos booked per week",
+        "$50K pipeline value monthly"
+      ],
+      "deadline": "2027-01-01"
+    }
+  ],
+  "routines": [
+    {
+      "id": "routine-01",
+      "name": "Daily Standup",
+      "schedule": {"cron": "0 9 * * 1-5", "timezone": "Asia/Manila"},
+      "agents": ["ceo-01", "cmo-01", "cto-01", "coo-01"],
+      "action": "Report yesterday's progress, today's priorities, blockers"
+    },
+    {
+      "id": "routine-02",
+      "name": "Weekly Performance Review",
+      "schedule": {"cron": "0 17 * * 5", "timezone": "Asia/Manila"},
+      "agents": ["all"],
+      "action": "Review weekly metrics, goal progress, budget consumption"
+    },
+    {
+      "id": "routine-03",
+      "name": "Monthly Board Report",
+      "schedule": {"cron": "0 10 1 * *", "timezone": "Asia/Manila"},
+      "agents": ["ceo-01"],
+      "action": "Generate monthly board report with KPI dashboard, budget summary, strategic recommendations"
+    }
+  ]
+}
