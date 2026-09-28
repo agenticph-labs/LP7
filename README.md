@@ -161,3 +161,8 @@ This project demonstrates:
 |:----:|:----------:|:---------|
 | `agenticph-labs/p7-paperclip` | Public | Portfolio documentation, sample configs, service blueprint |\n| `agenticph-labs/portfolio` | Public | [Portfolio site](https://agenticph-labs.github.io/portfolio) ||
 | [`agenticph-labs/portfolio`](https://agenticph-labs.github.io/portfolio) | Public | Portfolio site |
+
+---
+
+*Portfolio Project 7 — [AgenticPH Labs](https://agenticph-labs.github.io/portfolio)*  
+*Managed by the Hermes Agent System · agenticph.com*
