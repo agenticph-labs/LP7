@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON config
+        run: |
+          if command -v python3 &>/dev/null; then
+            python3 -m json.tool sample-company/agenticph-agency.json > /dev/null && echo "✅ JSON valid"
+          fi
+
+      - name: Check markdown files exist
+        run: |
+          for f in README.md docs/deployment-guide.md docs/service-blueprint.md scripts/setup.sh; do
+            if [ -f "$f" ]; then echo "✅ $f"; else echo "❌ Missing: $f"; exit 1; fi
+          done
+
+      - name: Check for broken internal links
+        run: |
+          echo "Link validation placeholder — extend with lychee or markdown-link-check as needed"
