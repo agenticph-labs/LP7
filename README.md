@@ -1,4 +1,4 @@
-# Paperclip — Autonomous AI Company Orchestrator for PH Businesses
+# LP7: Paperclip Deploy Config
 
 [![Status: Reference](https://img.shields.io/badge/status-reference-22c55e.svg)](https://github.com/agenticph-labs/LP7)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -231,5 +231,5 @@ MIT — See [LICENSE](LICENSE)
 
 ---
 
-*Portfolio Project 7 — [AgenticPH Labs](https://agenticph-labs.github.io/portfolio)*  
-*Built by [AgenticPH Labs](https://agenticph-labs.github.io/portfolio) — AI infrastructure for Philippine business growth*
+*Portfolio Project 7 — [AgenticPH](https://agenticph-labs.github.io/portfolio)*  
+*Built by [AgenticPH](https://agenticph-labs.github.io/portfolio) — AI infrastructure for Philippine business growth*
