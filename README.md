@@ -1,14 +1,14 @@
 # Paperclip — Autonomous AI Company Orchestrator for PH Businesses
 
-[![Status: Reference](https://img.shields.io/badge/status-reference-22c55e.svg)](https://github.com/agenticph-labs/p7-paperclip)
+[![Status: Reference](https://img.shields.io/badge/status-reference-22c55e.svg)](https://github.com/agenticph-labs/LP7)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/agenticph-labs/p7-paperclip/actions/workflows/ci.yml/badge.svg)](https://github.com/agenticph-labs/p7-paperclip/actions/workflows/ci.yml)
+[![CI](https://github.com/agenticph-labs/LP7/actions/workflows/ci.yml/badge.svg)](https://github.com/agenticph-labs/LP7/actions/workflows/ci.yml)
 
 > **Portfolio Project 7:** Paperclip deployment configuration, service blueprint, and PH-market reference for autonomous AI organizations.
 
 | Status | Repo | Type |
 |:------:|:----:|:----:|
-| ✅ Complete | `agenticph-labs/p7-paperclip` | Reference + Service Blueprint |
+| ✅ Complete | `agenticph-labs/LP7` | Reference + Service Blueprint |
 
 ---
 
@@ -209,7 +209,7 @@ This repository includes a CI pipeline that validates configurations and documen
 ## Repository Contents
 
 ```
-p7-paperclip/
+LP7/
 ├── .github/workflows/
 │   └── ci.yml               # CI — JSON validation + markdown linting
 ├── docs/
